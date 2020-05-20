@@ -8,7 +8,7 @@ Classify Music Genres Using acoustic features
 Music Genre Classification
 
 
-![]("reports/figures/cover-image.jpg)
+![alt text]("https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/cover-image.jpg")
 
 
 ## Problem Statement

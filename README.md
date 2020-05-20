@@ -3,7 +3,7 @@ Classify Music Genres Using acoustic features
 
 
 
-![image source](../classify-music-genres-from-acoustic-data/reports/figures/cover-image.jpg)
+![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/cover-image.jpg)
 
 Image source: https://rhishti.wordpress.com/2015/09/13/cultural-globalization-k-wave-taking-over/
 

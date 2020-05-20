@@ -1,18 +1,21 @@
-Music Genre Classification
+Classify Music Genres Using acoustic features
 ==============================
 
 [![pypi](https://img.shields.io/pypi/v/cookiecutter.svg)](https://pypi.python.org/pypi/cookiecutter)
 [![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.python.org/pypi/cookiecutter)
 
 
-Music Genre Classification using Million Song Dataset
+Music Genre Classification
+
+
+![]("reports/figures/cover-image.jpg)
 
 
 ## Problem Statement
 
-Many Music Information Retrival (MIR) research have been made on the subject of music genre classification. Each study with a different approach as to which acoustic features and which algorithms to base the classification upon and which tracks to use for the evaluation of the results. Because of this, the outcomes differ substanttially.
+Many Music Information Retrieval (MIR) research have been made on the subject of music genre classification. Each study with a different approach as to which acoustic features and which algorithms to base the classification upon and which tracks to use for the evaluation of the results. Because of this, the outcomes differ substantially.
 
-A study on genre classification using Million Song Dataset (MSD) has been implemented here. Music genre classification is always challenging as it is sometimes impossible for a human to find the genre of a music track. The purpose of this project is to classifiy music genre using music features derived from an acoustic analysis.
+A study on genre classification using Million Song Dataset (MSD) has been implemented here. Music genre classification is always challenging as it is sometimes impossible for a human to find the genre of a music track. The purpose of this project is to classify music genre using music features derived from an acoustic analysis.
 
 We know that the low-level feature MFCC, or the corresponding timbre feature, will be a good basis for the classification since it is a feature that mostly used. But adding high level features like tempo, loudness, key and pitch in combination may improve the results because those features vary among different genres.
 
@@ -87,6 +90,8 @@ The results of the baseline classification models are shown as below:
 After applying grid search for hyperparameter optimization on Gradiant Boosting Classifiers, the classification only achieved 62% accuracy and F1-Score of 60% at best, which we believe is a rather poor, but a reliable result.
 
 Also, from the confusion matrix above, it is seen that **hip-hop** and **pop** music are badly misclassified though other genres are well classified.
+
+## Summary
 
 
  Using this classifier in practice in an application would lead to a lot of misclassified tracks. The main reasons for the not so successful results are:

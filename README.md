@@ -1,14 +1,11 @@
 Classify Music Genres Using acoustic features
 ==============================
 
-[![pypi](https://img.shields.io/pypi/v/cookiecutter.svg)](https://pypi.python.org/pypi/cookiecutter)
-[![python](https://img.shields.io/pypi/pyversions/cookiecutter.svg)](https://pypi.python.org/pypi/cookiecutter)
 
 
-Music Genre Classification
+![image source](../classify-music-genres-from-acoustic-data/reports/figures/cover-image.jpg)
 
-
-![alt text]("https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/cover-image.jpg")
+Image source: https://rhishti.wordpress.com/2015/09/13/cultural-globalization-k-wave-taking-over/
 
 
 ## Problem Statement

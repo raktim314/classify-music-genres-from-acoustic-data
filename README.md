@@ -63,9 +63,9 @@ Let us explore the dataset to investigate if there could be any evidence of rela
 As the class is imbalanced, it may be a challenge to fit ML model.
 
 In the boxplot below we can see relationship between different genres and their loudness and tempo.
-![alt text](https://github.com/raktim314/music_genre_classification/blob/master/loudness.png)
+![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/loudness_plot.png)
 
-![alt text](https://github.com/raktim314/music_genre_classification/blob/master/tempo.png)
+![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/tempo_plot.png)
 
 Though there are some outliers in `loudness` and `tempo` of each genres, we are not going to remove them because in practical world these can go beyond the average limits.
 

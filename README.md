@@ -1,4 +1,4 @@
-Classify Music Genres Using acoustic features
+Classify Music Genres Using Acoustic Features
 ==============================
 
 
@@ -73,20 +73,27 @@ Though there are some outliers in `loudness` and `tempo` of each genres, we are 
 
 I choose 20% of the total dataset as test set for the models.
 
+For baseline model we are going to use K-Neighbors Classifier and two tree based algorithms such as Random Forest and Histogram-based Gradient Boosting Classification Tree on their default parameters.
+
+In most classification problem KNN classifier is like a default algorithms for its simplicity and versatility. It is a non-parametric algorithm that does not need any assumption for underlying data distribution.
+
+On the other hand, tree based algorithms are widely suggested in data science community for multi-class classification problem. In this regards, we are going to use Random Forest as it contains of a large number of individual decision trees that operates as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model's prediction.
+
+Lastly, [Histogram-based Gradient Boosting classifier](https://scikitlearn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html) is much faster than Gradient Boosting Classifier for big datasets (n_samples >= 10000). During training, the tree grower learns at each split point whether samples with missing values should go to the left or right child, based on the potential gain.
+
 The results of the baseline classification models are shown as below:
 |  Model | Accuracy using Cross Validation  | Accuracy on test set
 |---|---|---|
-| Logistic Regression  |54.9%   | 55.0%  |
-|KNN   |43.6%   |43.3%   |
-|Random Forest Classifier   |55.8%   |55.4%   |
-|Gradient Boosting Classifier   |58.6%   |58.4%   |
+|KNN   |43.6%   |44.1%   |
+|Random Forest Classifier   |55.6%   |56.02%   |
+|Histogram-based Gradient Boosting Classifier   |61.57%   |61.55%   |
 
 ![alt text](https://github.com/raktim314/music_genre_classification/blob/master/confusion-matrix.png)
 
 
-After applying grid search for hyperparameter optimization on Gradiant Boosting Classifiers, the classification only achieved 62% accuracy and F1-Score of 60% at best, which we believe is a rather poor, but a reliable result.
+After applying grid search for hyperparameter optimization on Gradient Boosting Classifiers, the classification only achieved 64% accuracy and F1-Score of 63% at best, which we believe is a rather poor, but a reliable result.
 
-Also, from the confusion matrix above, it is seen that **hip-hop** and **pop** music are badly misclassified though other genres are well classified.
+Also, from the confusion matrix above, it is seen that **punk**, **metal**, **hip-hop** and **jazz and blues** music are very well-classified though other genres are not comparatively misclassified.
 
 ## Summary
 

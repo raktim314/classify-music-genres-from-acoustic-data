@@ -46,7 +46,7 @@ This dataset is a subset of the MSD which contains only 59,600 songs with the fo
 ## Data Visualization
 
 Let us explore the dataset to investigate if there could be any evidence of relationship between `genre` and other features. First we can find the distribution of all 10 genre classes and it is seen that the distribution is pretty imbalanced (Figure below). 
-![alt text](https://github.com/raktim314/music_genre_classification/blob/master/class_counts.png)
+![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/class_counts.png)
 | Class  |Count   |Percentage  |
 |---|---|---|
 |classic pop and rock |23895   | 40.092  |
@@ -88,7 +88,7 @@ The results of the baseline classification models are shown as below:
 |Random Forest Classifier   |55.6%   |56.02%   |
 |Histogram-based Gradient Boosting Classifier   |61.57%   |61.55%   |
 
-![alt text](https://github.com/raktim314/music_genre_classification/blob/master/confusion-matrix.png)
+![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/confusion-matrix.png)
 
 
 After applying grid search for hyperparameter optimization on Gradient Boosting Classifiers, the classification only achieved 64% accuracy and F1-Score of 63% at best, which we believe is a rather poor, but a reliable result.

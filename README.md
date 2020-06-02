@@ -20,7 +20,7 @@ In machine learning perspective prediction is a critical task in imbalanced data
 
 ## Dataset
 
-The dataset we have chosen in this study is the Million Song Dataset (MSD) which has been downloaded from thee link http://millionsongdataset.com/sites/default/files/AdditionalFiles/msd_genre_dataset.zip
+The dataset we have chosen in this study is the Million Song Dataset (MSD) which has been downloaded from [MSD](http://millionsongdataset.com/sites/default/files/AdditionalFiles/msd_genre_dataset.zip) website.
 
 
 This dataset is a subset of the MSD which contains only 59,600 songs with the following information:

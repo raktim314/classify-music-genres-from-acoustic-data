@@ -65,7 +65,11 @@ As the class is imbalanced, it may be a challenge to fit ML model.
 In the boxplot below we can see relationship between different genres and their loudness and tempo.
 ![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/loudness_plot.png)
 
+From this plot it is seen that some genres like `hip-hop`, `punk` and `pop` have very close loudness and `classic pop and rock`, `folk` and `dance and electronica` have some closeness in their loudness. Apparently `metal` is loudest music type as the cloud graph showing its' highest pick. 
+
 ![alt text](https://github.com/raktim314/classify-music-genres-from-acoustic-data/blob/master/reports/figures/tempo_plot.png)
+
+The figure above shows that the interestingly the tempo of the most of the music genres are in 100 to 150 BPM.
 
 Though there are some outliers in `loudness` and `tempo` of each genres, we are not going to remove them because in practical world these can go beyond the average limits.
 
